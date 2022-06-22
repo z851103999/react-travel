@@ -105,7 +105,7 @@ body {
 .main-structure header .menu-logo {
   width: var(--header-toggle-width);
   height: var(--header-toggle-width);
-  background: url("/public/assets/icons/menu.svg");
+  background: url("/src/assets/icons/menu.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: var(--header-toggle-width);
@@ -120,7 +120,7 @@ body {
 }
 
 .main-structure header .menu-logo.active{
-  background: url("/public/assets/icons/close.svg");
+  background: url("/src/assets/icons/close.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: var(--header-toggle-width);
